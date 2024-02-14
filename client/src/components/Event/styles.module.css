@@ -1,0 +1,34 @@
+.event {
+    width: 70%;
+    background-color: #3C5271;
+    color: whitesmoke;
+    border-radius: 25px;
+    padding: 30px;
+    margin: auto auto 30px;
+    box-shadow: -5px 5px 10px gray;
+
+}
+
+.event_header {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+.event_buttons {
+    text-align: right;
+    font-size: x-large;
+}
+
+.event_value {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.icon {
+    margin-right: 5px;
+}

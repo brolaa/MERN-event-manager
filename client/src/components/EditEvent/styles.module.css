@@ -1,0 +1,86 @@
+.event_form {
+    width: 70%;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 25px;
+    padding: 30px;
+    margin: auto auto 30px;
+    box-shadow: -5px 5px 10px gray;
+}
+
+.event_textfield {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #edf5f3;
+    font-size: 14px;
+}
+
+.event_field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+.datetime_input {
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #edf5f3;
+    font-size: 14px;
+}
+
+.error_msg {
+    margin:0 auto;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 15px;
+    font-size: 14px;
+    background-color: #f34646;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.white_btn,
+.green_btn {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: white;
+    border-radius: 20px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.green_btn {
+    width: 50%;
+    background-color: #378DE1FF;
+    color: white;
+    margin: 10px;
+}
+
+.icon {
+    padding-right: 10px;
+}
+
+.success {
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 15px;
+    font-size: 14px;
+    background-color: #5ea031;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
